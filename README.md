@@ -1,1 +1,0 @@
-# rdthimg-front
