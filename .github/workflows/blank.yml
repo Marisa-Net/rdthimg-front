@@ -29,4 +29,4 @@ jobs:
       - name: wayback machine
         run: |
           pip install waybackpy -U
-          waybackpy --url https://xn--wcsr19aux9a.xn--xuw71npw9a.ml --save
+          waybackpy --url https://rdthimg.marisa.ml --save
