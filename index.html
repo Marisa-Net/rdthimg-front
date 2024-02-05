@@ -1,1 +1,105 @@
-<html><head><meta name="viewport" content="width=device-width; height=device-height;"><link rel="stylesheet" href="resource://content-accessible/ImageDocument.css"><link rel="stylesheet" href="resource://content-accessible/TopLevelImageDocument.css"></head><title>每天随机的東方Project图片</title><body><img src="Delopy.png"></body><div id="transmart-crx-shadow-root" style="all: initial;"></div></html>
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>每天随机的東方Project图片</title>  
+  <style>  
+    body {  
+      margin: 0;  
+      position: relative;  
+      overflow: hidden;  
+    }  
+  
+    body::before {  
+      content: "";  
+      position: absolute;  
+      top: 0;  
+      left: 0;  
+      width: 100%;  
+      height: 100%;  
+      background-image: url('https://rdthimg.marisa.ml/Delopy.png'); 
+      background-size: cover;  
+      background-position: center;  
+      filter: blur(10px);  
+      z-index: -1;  
+    }  
+  
+    .image-container {  
+      position: relative;  
+      display: flex;  
+      justify-content: center;  
+      align-items: center;  
+      height: 100vh;  
+      background-color: rgba(255, 255, 255, 0.7);  
+    }  
+  
+    .image-container img {  
+      max-width: 80%;  
+      border-radius: 5px;  
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+    }  
+  
+    .button-container {  
+      display: flex;  
+      justify-content: center;  
+      align-items: center;  
+      margin-top: 50px; /* 根据需要调整按钮与图片之间的距离 */  
+    }  
+  
+    .button-container button {  
+      margin: 0 10px;  
+      padding: 10px 20px;  
+      font-size: 16px;  
+      color: white;  
+      background-color: #333;  
+      border: none;  
+      border-radius: 5px;  
+      cursor: pointer;  
+    }  
+  
+    .button-container button:hover {  
+      background-color: #555;  
+    }  
+
+.button-container button {  
+  position: relative;  
+  background-color: transparent; /* 透明背景 */  
+  /* 其他样式保持不变 */  
+}  
+  
+.button-container button::before {  
+  content: "";  
+  position: absolute;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  backdrop-filter: blur(10px); /* 应用毛玻璃效果 */  
+  z-index: -1;  
+  border-radius: inherit; /* 继承按钮的圆角 */  
+  background-color: rgba(0, 0, 0, 0.5); /* 半透明的黑色背景 */  
+}
+
+.button-container {  
+  position: absolute;  
+  bottom: 20px; /* 距离底部的距离 */  
+  left: 50%;  
+  transform: translateX(-50%); /* 水平居中 */  
+  /* 其他样式保持不变 */  
+}
+
+  </style>  
+</head>  
+<body>  
+  <div class="image-container">  
+    <img src="https://rdthimg.marisa.ml/Delopy.png"> 
+  </div>  
+  
+  <div class="button-container">  
+    <button>  <a href="https://saucenao.com" class="button">Saucenao</a> </button>  
+    <button>  <a href="https://ya.ru/images/search?rpt=imageview&url=https%3A%2F%2Frdthimg.marisa.ml%2FDelopy.png" class="button">Yandex</a> </button>  
+    <button>  <a href="https://lens.google.com/uploadbyurl?url=https%3A%2F%2Frdthimg.marisa.ml%2FDelopy.png" class="button">Google Lens</a> </button>  
+    <button>  <a href="https://ascii2d.net/search/url/https%3A%2F%2Frdthimg.marisa.ml%2FDelopy.png" class="button">ASCII2d</a> </button>  
+    <button>  <a href="https://www.tineye.com/search/?url=https%3A%2F%2Frdthimg.marisa.ml%2FDelopy.png" class="button">Tineye</a> </button>  
+  </div>  
+</body>  
+</html>
