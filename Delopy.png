@@ -1,0 +1,23 @@
+
+<html lang="en-us">
+<html>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <body>
+        <a href="/">BackHome</a>
+        <h1>accessDenied</h1>
+        <div id="dis" style="display: none;">
+
+<div style="margin:8px;"><pre>Array{
+    "error": {
+        "code": "accessDenied",
+        "message": "Access denied",
+        "stat": 403
+    }
+}</pre></div><a href="javascript:history.back(-1)">Back</a>
+
+        </div>
+        <script type="8a3a03c95e3b3f9151497a43-text/javascript">document.getElementById("dis").style.display = "";</script>
+    <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8a3a03c95e3b3f9151497a43-|49" defer></script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"126388940b694eaab4aa719ae63bb729","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
